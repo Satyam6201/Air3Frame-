@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Air3Frame | Rohit Kumar</title>
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Loader -->
+  <div id="page-loader" class="loader-wrap">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Navbar (shared across pages) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="index.html" class="logo"><span class="accent">Air3Frame</span></a>
+        <div class="slogan-small">हर उड़ान में नज़र है नई सोच की</div>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="work.html" class="nav-link">Work</a></li>
+          <li><a href="videos.html" class="nav-link">Videos</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme"><i class="fa-regular fa-sun"></i></button>
+        <button id="nav-toggle" class="burger" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile nav overlay -->
+  <div id="mobile-nav" class="mobile-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <div class="profile-wrap">
+            <img src="assets/rohit.jpg" alt="Rohit Kumar" class="profile-photo" />
+            <div class="photo-frame"></div>
+          </div>
+        </div>
+        <div class="hero-right">
+          <h1 class="hero-title">Rohit Kumar</h1>
+          <p class="hero-role">I am a <span id="typing" class="typing"></span></p>
+          <p class="hero-slogan">हर उड़ान में नज़र है नई सोच की — Capturing fresh perspectives from above</p>
+
+          <div class="hero-cta">
+            <a href="contact.html" class="btn btn-primary"><i class="fa-solid fa-phone"></i> Hire Me</a>
+            <a href="videos.html" class="btn btn-outline"><i class="fa-solid fa-video"></i> Watch Videos</a>
+            <a href="https://www.instagram.com/air3frame?igsh=Zjl1OWptaWp0bTVx" class="btn btn-ghost" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i> Instagram</a>
+          </div>
+
+          <div class="quick-links">
+            <a class="contact-pill" href="https://wa.me/message/JAPY2SHUUAGJI1" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> Message Rohit Enterprises</a>
+            <a class="contact-pill" href="https://drive.google.com/drive/folders/1WM5ThBFC9OQj-qBWwv3WDy5wf5xSGyAr" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-folder-open"></i> Video Folder</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="container">
+        <h2 class="section-title">Work / Services</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-ic"><i class="fa-solid fa-drone"></i></div>
+            <h3>Drone Videography</h3>
+            <p>Cinematic aerial videos — weddings, events, real estate & travel.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-ic"><i class="fa-solid fa-bullhorn"></i></div>
+            <h3>Digital Marketing</h3>
+            <p>Campaign strategy and content tailored for social platforms.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-ic"><i class="fa-solid fa-pen-nib"></i></div>
+            <h3>Create Ads</h3>
+            <p>High-impact video ads for ads manager & reels.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-ic"><i class="fa-solid fa-share-nodes"></i></div>
+            <h3>Social Media Management</h3>
+            <p>Posting, scheduling and engagement for brand growth.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Videos preview -->
+    <section class="section" id="featured-videos">
+      <div class="container">
+        <h2 class="section-title">Featured Videos</h2>
+        <p class="muted center">Click a thumbnail to open a larger preview — or view the full folder on Google Drive.</p>
+
+        <div class="videos-grid">
+          <!-- Using provided drive preview links -->
+          <div class="video-thumb" data-src="https://drive.google.com/file/d/1s0FA5BABM12J75lU3rLwpE6-2LpLfZFz/preview">
+            <div class="video-cover"><i class="fa-solid fa-play"></i></div>
+            <small>Project 1</small>
+          </div>
+
+          <div class="video-thumb" data-src="https://drive.google.com/file/d/1X2kWiHpnZAsy5KHD5SYlk1jxuGtdc5lO/preview">
+            <div class="video-cover"><i class="fa-solid fa-play"></i></div>
+            <small>Project 2</small>
+          </div>
+
+          <div class="video-thumb" data-src="https://drive.google.com/file/d/1X4VuE5Mxnj5tXS3E5G-7TwIiqB9pK6_u/preview">
+            <div class="video-cover"><i class="fa-solid fa-play"></i></div>
+            <small>Project 3</small>
+          </div>
+
+          <div class="video-thumb" data-src="https://drive.google.com/file/d/1X1g5fAJKSeuZJuxBAzCAjTQA0XXz2aWm/preview">
+            <div class="video-cover"><i class="fa-solid fa-play"></i></div>
+            <small>Project 4</small>
+          </div>
+
+          <div class="video-thumb" data-src="https://drive.google.com/file/d/1asp9vQUUuffjEkkU4QSuzovzo4p0630v/preview">
+            <div class="video-cover"><i class="fa-solid fa-play"></i></div>
+            <small>Project 5</small>
+          </div>
+
+          <div class="video-thumb" data-src="https://drive.google.com/file/d/1rxvoqjARpBMvIUPyI-iRV9EbflvBDP46/preview">
+            <div class="video-cover"><i class="fa-solid fa-play"></i></div>
+            <small>Project 6</small>
+          </div>
+
+          <div class="video-thumb" data-src="https://drive.google.com/file/d/1bEXAJiYVgwHt2fjnmTPS6O4-Hd3dzNY2/preview">
+            <div class="video-cover"><i class="fa-solid fa-play"></i></div>
+            <small>Project 7</small>
+          </div>
+
+          <div class="video-thumb" data-src="https://drive.google.com/file/d/1dvKcR3mxbqhjV06mMNMhZL5iv0r-_pKL/preview">
+            <div class="video-cover"><i class="fa-solid fa-play"></i></div>
+            <small>Project 8</small>
+          </div>
+
+          <div class="video-thumb" data-src="https://drive.google.com/file/d/1WVYCO2zPhLWfrAQeBc-YcLW07Gjdk-jH/preview">
+            <div class="video-cover"><i class="fa-solid fa-play"></i></div>
+            <small>Project 9</small>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Video Modal -->
+  <div id="video-modal" class="modal">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+      <div class="modal-body" id="modal-body">
+        <!-- iframe inserted via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll to top -->
+  <button id="scroll-top" class="scroll-top" aria-label="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3 class="brand-footer">Air3Frame</h3>
+        <p class="muted">हर उड़ान में नज़र है नई सोच की</p>
+        <p class="muted small">© 2025 Rohit Kumar</p>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <p><i class="fa-solid fa-phone"></i> <a href="https://wa.me/message/JAPY2SHUUAGJI1" target="_blank">WhatsApp</a></p>
+        <p><i class="fa-solid fa-envelope"></i> <a href="mailto:air3frame@gmail.com">air3frame@gmail.com</a></p>
+        <p><i class="fa-solid fa-map-marker-alt"></i> Siwan, Bihar</p>
+      </div>
+
+      <div>
+        <h4>Follow</h4>
+        <p><a href="https://www.instagram.com/air3frame?igsh=Zjl1OWptaWp0bTVx" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a></p>
+        <p><a href="https://drive.google.com/drive/folders/1WM5ThBFC9OQj-qBWwv3WDy5wf5xSGyAr" target="_blank"><i class="fa-solid fa-video"></i> Video Folder</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
