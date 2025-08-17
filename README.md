@@ -7,4 +7,15 @@ It is designed to showcase personal details, work, and videos with a clean and m
 
 ## 📁 Project Structure  
 
-
+```
+Air3Frame/
+├─ index.html # Homepage of the portfolio
+├─ about.html # About me page
+├─ work.html # Work / Projects page
+├─ videos.html # Videos or Media page
+├─ contact.html # Contact form & details page
+├─ style.css # Main stylesheet for styling the website
+├─ script.js # JavaScript file for interactivity (menu, animations, etc.)
+└─ assets/
+└─ rohit.jpg # Profile picture or image used in the website
+```
