@@ -56,11 +56,3 @@ Air3Frame/
 - A **profile image** or placeholder image used across the site.  
 
 ---
-
-## 🚀 How to Run  
-
-1. Download or clone the repository:  
-   ```bash
-   git clone https://github.com/your-username/Air3Frame.git
-
----
