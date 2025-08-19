@@ -54,5 +54,3 @@ Air3Frame/
 
 ### 🔹 `assets/rohit.jpg`
 - A **profile image** or placeholder image used across the site.  
-
----
